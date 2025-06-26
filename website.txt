@@ -41,17 +41,17 @@
     <div class="grid md:grid-cols-3 gap-6 text-center">
       <div class="border rounded-lg p-6 shadow hover:shadow-lg">
         <h3 class="text-xl font-bold mb-2">Basic</h3>
-        <p class="text-gray-600 mb-2">$50</p>
+        <p class="text-gray-600 mb-2">$10</p>
         <p>1 logo concept<br>2 revisions<br>Delivery in 3 days</p>
       </div>
       <div class="border rounded-lg p-6 shadow-lg bg-yellow-100">
         <h3 class="text-xl font-bold mb-2">Standard</h3>
-        <p class="text-gray-600 mb-2">$100</p>
+        <p class="text-gray-600 mb-2">$25</p>
         <p>2 logo concepts<br>4 revisions<br>Delivery in 3–5 days</p>
       </div>
       <div class="border rounded-lg p-6 shadow hover:shadow-lg">
         <h3 class="text-xl font-bold mb-2">Premium</h3>
-        <p class="text-gray-600 mb-2">$200</p>
+        <p class="text-gray-600 mb-2">$50</p>
         <p>3 logo concepts<br>Unlimited revisions<br>Full brand kit</p>
       </div>
     </div>
