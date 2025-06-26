@@ -18,9 +18,9 @@
   <section class="py-16 px-6 max-w-6xl mx-auto">
     <h2 class="text-3xl font-bold mb-6 text-center">Portfolio</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <img src="https://via.placeholder.com/300x200?text=Logo+1" alt="Logo 1" class="rounded-xl shadow-lg" />
-      <img src="https://via.placeholder.com/300x200?text=Logo+2" alt="Logo 2" class="rounded-xl shadow-lg" />
-      <img src="https://via.placeholder.com/300x200?text=Logo+3" alt="Logo 3" class="rounded-xl shadow-lg" />
+      <img src="https://via.placeholder.com/300x200?text=Dragon+Logo" alt="Dragon Logo" class="rounded-xl shadow-lg" />
+      <img src="https://via.placeholder.com/300x200?text=Lion+Logo" alt="Lion Logo" class="rounded-xl shadow-lg" />
+      <img src="https://via.placeholder.com/300x200?text=White+Tiger+Logo" alt="White Tiger Logo" class="rounded-xl shadow-lg" />
     </div>
   </section>
 
