@@ -77,7 +77,7 @@
   <!-- Footer -->
   <footer class="bg-gray-900 text-white text-center py-6">
     <p>&copy; 2025 Logos For You. All rights reserved.</p>
-    <p>Contact: <a href="mailto:your@email.com" class="underline">Geolast489@gmail.com</a></p>
+    <p>Contact: <a href="mailto:Geolast489@gmail.com" class="underline">your@email.com</a></p>
   </footer>
 
 </body>
