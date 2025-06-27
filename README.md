@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <!-- Optional: Tailwind CSS for styling -->
-  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="text-gray-800 font-sans bg-white">
 
@@ -57,17 +55,15 @@
     </div>
   </section>
 
-  <!-- Request a Logo (Modified) -->
+  <!-- Request Form -->
   <section class="bg-white py-16 px-6">
     <h2 class="text-3xl font-bold mb-6 text-center">Request a Logo</h2>
-    <div class="max-w-xl mx-auto bg-white p-6 rounded-2xl shadow-lg space-y-4">
+    <form class="max-w-xl mx-auto bg-white p-6 rounded-2xl shadow-lg space-y-4">
       <input type="text" placeholder="Your Name" class="w-full border p-3 rounded-md" required />
       <input type="email" placeholder="Email Address" class="w-full border p-3 rounded-md" required />
-      
-      <p class="text-center text-lg font-medium text-gray-700">
-        Message us if you need a logo or any graphic designed items.
-      </p>
-    </div>
+      <textarea placeholder="Describe your business and what you're looking for..." class="w-full border p-3 rounded-md h-32" required></textarea>
+      <button type="submit" class="bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-700 w-full transition duration-300">Send Request</button>
+    </form>
   </section>
 
   <!-- About Section -->
