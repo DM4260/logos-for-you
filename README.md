@@ -5,8 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Logos For You</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: url('https://www.transparenttextures.com/patterns/noise.png');
+      opacity: 0.1;
+      z-index: -1;
+    }
+  </style>
 </head>
-<body class="bg-gradient-to-b from-blue-50 to-white text-gray-800 font-sans">
+<body class="bg-gradient-to-br from-indigo-100 via-white to-blue-100 text-gray-800 font-sans">
 
   <!-- Hero Section -->
   <header class="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-20 text-center shadow-lg">
@@ -25,7 +35,7 @@
   </section>
 
   <!-- How It Works -->
-  <section class="bg-white py-16 px-6">
+  <section class="bg-white/70 backdrop-blur-md py-16 px-6 shadow-inner">
     <h2 class="text-3xl font-bold mb-6 text-center">How It Works</h2>
     <div class="max-w-3xl mx-auto space-y-4 text-center text-lg">
       <p>1. Fill out the request form below</p>
@@ -39,17 +49,17 @@
   <section class="py-16 px-6 max-w-5xl mx-auto">
     <h2 class="text-3xl font-bold mb-6 text-center">Pricing</h2>
     <div class="grid md:grid-cols-3 gap-6 text-center">
-      <div class="bg-white border rounded-2xl p-6 shadow-xl hover:shadow-2xl transition duration-300">
+      <div class="bg-white/90 border rounded-2xl p-6 shadow-xl hover:shadow-2xl transition duration-300">
         <h3 class="text-xl font-bold mb-2">Basic</h3>
         <p class="text-gray-600 mb-2 text-lg">$10</p>
         <p>1 logo concept<br>2 revisions<br>Delivery in 3 days</p>
       </div>
-      <div class="bg-yellow-50 border-2 border-yellow-400 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition duration-300">
+      <div class="bg-yellow-100/90 border-2 border-yellow-400 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition duration-300">
         <h3 class="text-xl font-bold mb-2">Standard</h3>
         <p class="text-gray-600 mb-2 text-lg">$25</p>
         <p>2 logo concepts<br>4 revisions<br>Delivery in 3–5 days</p>
       </div>
-      <div class="bg-white border rounded-2xl p-6 shadow-xl hover:shadow-2xl transition duration-300">
+      <div class="bg-white/90 border rounded-2xl p-6 shadow-xl hover:shadow-2xl transition duration-300">
         <h3 class="text-xl font-bold mb-2">Premium</h3>
         <p class="text-gray-600 mb-2 text-lg">$50</p>
         <p>3 logo concepts<br>Unlimited revisions<br>Full brand kit</p>
@@ -58,9 +68,9 @@
   </section>
 
   <!-- Request Form -->
-  <section class="bg-white py-16 px-6">
+  <section class="bg-white/70 backdrop-blur-md py-16 px-6">
     <h2 class="text-3xl font-bold mb-6 text-center">Request a Logo</h2>
-    <form class="max-w-xl mx-auto bg-gray-50 p-6 rounded-2xl shadow-lg space-y-4">
+    <form class="max-w-xl mx-auto bg-white p-6 rounded-2xl shadow-lg space-y-4">
       <input type="text" placeholder="Your Name" class="w-full border p-3 rounded-md" required />
       <input type="email" placeholder="Email Address" class="w-full border p-3 rounded-md" required />
       <textarea placeholder="Describe your business and what you're looking for..." class="w-full border p-3 rounded-md h-32" required></textarea>
@@ -69,13 +79,13 @@
   </section>
 
   <!-- About Section -->
-  <section class="py-16 px-6 max-w-3xl mx-auto text-center">
+  <section class="py-16 px-6 max-w-3xl mx-auto text-center bg-white/60 backdrop-blur-md rounded-xl shadow-md">
     <h2 class="text-3xl font-bold mb-4">About Logos For You</h2>
     <p class="text-lg">We're passionate about crafting unique, memorable logos tailored to your brand. With a love for creativity and a sharp eye for detail, we help businesses stand out in a competitive market.</p>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-900 text-white text-center py-6">
+  <footer class="bg-gray-900 text-white text-center py-6 mt-16">
     <p>&copy; 2025 Logos For You. All rights reserved.</p>
     <p>Contact: <a href="mailto:Geolast489@gmail.com" class="underline">Geolast489@gmail.com</a></p>
   </footer>
