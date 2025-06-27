@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Optional: Tailwind CSS for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="text-gray-800 font-sans bg-white">
 
@@ -61,8 +63,19 @@
     <form class="max-w-xl mx-auto bg-white p-6 rounded-2xl shadow-lg space-y-4">
       <input type="text" placeholder="Your Name" class="w-full border p-3 rounded-md" required />
       <input type="email" placeholder="Email Address" class="w-full border p-3 rounded-md" required />
-      <textarea placeholder="Describe your business and what you're looking for..." class="w-full border p-3 rounded-md h-32" required></textarea>
-      <button type="submit" class="bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-700 w-full transition duration-300">Send Request</button>
+      
+      <textarea
+        placeholder="Tell us about your business, your brand's personality, and the type of logo you'd like (e.g., modern, minimalist, bold, playful, etc.)"
+        class="w-full border p-3 rounded-md h-32"
+        required
+      ></textarea>
+
+      <button
+        type="submit"
+        class="bg-gray-900 text-white px-6 py-3 rounded-md hover:bg-gray-700 w-full transition duration-300"
+      >
+        Request My Custom Logo
+      </button>
     </form>
   </section>
 
@@ -79,4 +92,4 @@
   </footer>
 
 </body>
-</html>
+</html
