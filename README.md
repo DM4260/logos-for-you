@@ -15,10 +15,19 @@
   <!-- Portfolio Section -->
   <section class="py-16 px-6 max-w-6xl mx-auto">
     <h2 class="text-3xl font-bold mb-6 text-center">Portfolio</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <img src="https://images.unsplash.com/photo-1610382326683-09bb9cc84342?auto=format&fit=crop&w=800&q=80" alt="Dragon Logo" class="rounded-xl shadow-lg object-cover" />
-      <img src="https://images.unsplash.com/photo-1606811846791-88e9b4b77979?auto=format&fit=crop&w=800&q=80" alt="Lion Logo" class="rounded-xl shadow-lg object-cover" />
-      <img src="https://images.unsplash.com/photo-1599491674072-fb5a5c0b3d61?auto=format&fit=crop&w=800&q=80" alt="White Tiger Logo" class="rounded-xl shadow-lg object-cover" />
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
+      <div>
+        <img src="https://images.unsplash.com/photo-1610382326683-09bb9cc84342?auto=format&fit=crop&w=800&q=80" alt="Dragon Art" class="rounded-xl shadow-lg object-cover" />
+        <p class="mt-2 font-medium">Dragon</p>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1606811846791-88e9b4b77979?auto=format&fit=crop&w=800&q=80" alt="Lion" class="rounded-xl shadow-lg object-cover" />
+        <p class="mt-2 font-medium">Lion</p>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1599491674072-fb5a5c0b3d61?auto=format&fit=crop&w=800&q=80" alt="White Tiger" class="rounded-xl shadow-lg object-cover" />
+        <p class="mt-2 font-medium">White Tiger</p>
+      </div>
     </div>
   </section>
 
